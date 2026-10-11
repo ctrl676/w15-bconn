@@ -1,1 +1,20 @@
-{"schemaVersion":1,"type":"field","name":"w15","description":"w15"}
+{
+  "schemaVersion": 1,
+  "type": "field",
+  "protocolType": "http",
+  "protocol_type": "http",
+  "protocol": {
+    "type": "http",
+    "url": "https://src-ssrf.bytedance.net/ssrf",
+    "baseUrl": "https://src-ssrf.bytedance.net/ssrf",
+    "endpoint": "https://src-ssrf.bytedance.net/ssrf",
+    "extensionType": "field",
+    "extension_type": "field"
+  },
+  "url": "https://src-ssrf.bytedance.net/ssrf",
+  "baseUrl": "https://src-ssrf.bytedance.net/ssrf",
+  "icon": "https://src-ssrf.bytedance.net/ssrf",
+  "name": "w15",
+  "description": "w15",
+  "auth": {"type": "none"}
+}
