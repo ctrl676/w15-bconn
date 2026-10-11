@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "type": "data_connector",
+  "schema_version": 1,
+  "type": 3,
+  "Type": "data_connector",
   "protocolType": "http",
-  "name": {"zh_cn": "w15", "en_us": "w15"},
-  "description": {"zh_cn": "w15", "en_us": "w15"},
+  "protocol_type": 1,
+  "protocol": {"type": "http", "url": "https://example.org"},
+  "kind": "data_connector",
+  "packType": "replit",
+  "pack_type": "replit",
+  "pack_id": "share_customize",
+  "name": "w15",
+  "description": "w15",
   "auth": {"type": "none"},
-  "baseUrl": "https://example.org",
-  "url": "https://example.org"
+  "metaInfo": {"type": "data_connector", "protocolType": "http"},
+  "data": {"type": "data_connector"}
 }
