@@ -1,15 +1,20 @@
 {
   "schemaVersion": 1,
+  "version": "1.0.0",
   "type": "data_connector",
-  "protocolType": "http",
+  "extraData": {
+    "disabledPeriodicSync": false,
+    "dataSourceConfigUiUri": "https://ext.baseopendev.com/ext/data-sync-fe-demo/c70fa2864a002386423f26411f21a3c674bc2f9c/index.html",
+    "initHeight": 300,
+    "initWidth": 520
+  },
   "protocol": {
     "type": "http",
-    "url": "https://src-ssrf.bytedance.net/ssrf"
-  },
-  "name": {"zh_cn": "w15", "en_us": "w15"},
-  "description": {"zh_cn": "w15", "en_us": "w15"},
-  "icon": "https://example.org/icon.png",
-  "auth": {"type": "none"},
-  "url": "https://src-ssrf.bytedance.net/ssrf",
-  "baseUrl": "https://src-ssrf.bytedance.net/ssrf"
+    "httpProtocol": {
+      "uris": [
+        {"type": "tableMeta", "uri": "/api/table_meta"},
+        {"type": "records", "uri": "/api/records"}
+      ]
+    }
+  }
 }
