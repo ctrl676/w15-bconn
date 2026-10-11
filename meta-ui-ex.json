@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "type": "data_connector",
+  "extraData": {
+    "disabledPeriodicSync": false,
+    "dataSourceConfigUiUri": "https://example.org",
+    "initHeight": 300,
+    "initWidth": 520
+  },
+  "protocol": {
+    "type": "http",
+    "httpProtocol": {
+      "uris": [
+        {"type": "tableMeta", "uri": "table"},
+        {"type": "records", "uri": "records"}
+      ]
+    }
+  }
+}
